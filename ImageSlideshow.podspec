@@ -28,7 +28,7 @@ Image slideshow is a Swift library providing customizable image slideshow with c
   s.social_media_url = 'https://twitter.com/zvonicek'
 
   s.swift_versions = ['4.0', '4.1', '4.2', '5', '5.1', '5.2']
-  s.platform     = :ios, '8.0'
+  s.platform     = :ios, '13.0'
   s.requires_arc = true
 
   s.subspec 'Core' do |core|
@@ -51,7 +51,7 @@ Image slideshow is a Swift library providing customizable image slideshow with c
   s.subspec 'Alamofire' do |subspec|
     subspec.dependency 'ImageSlideshow/Core'
     subspec.dependency 'AlamofireImage', '~> 4.0'
-    subspec.platform     = :ios, '10.0'
+    subspec.platform     = :ios, '13.0'
     subspec.source_files = 'ImageSlideshow/Classes/InputSources/AlamofireSource.swift'
   end
 
